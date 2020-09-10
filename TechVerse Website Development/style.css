@@ -1,0 +1,246 @@
+*{
+	margin:0;
+	padding: 0;
+    box-sizing: border-box;
+}
+/* !----------------Navigation Bar-------------------------- */
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: /* rgb(170, 170, 170)*/rgb(31, 200, 206);
+    
+}
+.navbar-brand img 
+{
+    float: left;
+    height: 100px;
+    padding-left: 50px ; 
+}
+
+.navbar-nav li
+{
+padding: 0 30px;
+}
+.navbar-nav li a
+{
+     float: right;
+     text-align: left;
+}
+#nav-bar ul li a:hover
+{
+color: rgb(47, 212, 212)!important;
+}
+.navbar{
+    color: rgb(31, 200, 206);
+}
+.navbar-toggler{
+    border: none!important;
+}
+.nav-link{
+    color: #555!important;
+    font-weight: 600px;
+    font-size: 20px;
+}
+/* !----------------Navigation Bar-------------------------- */
+/*----------------Slider Bar Start-------------------------- */
+#slider{
+    width:100%;
+    height: 200px;
+    background-attachment: fixed;
+
+}
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+.carousel-caption h1{
+    color: #fff;
+    font-size: 170px;
+}
+/*!----------------Slider Bar Start-------------------------- */
+/* ----------------About Us-1 Bar-------------------------- */
+.col-md-6 h2{
+    padding-top: 100px;
+    font-size: 60px;
+    color: black;
+    margin-left: 20px;
+}
+.col-md-6 h3{
+    
+    font-size: 80px;
+    color: rgb(31, 200, 206);
+}
+.col-md-6 img{
+    padding-top: 100px;
+    float:inline-end;
+    size: 100px;
+   
+}
+/* !-------------------------About us-1 Part end----------------------- */
+/*----------------About us-2 Part-------------------------- */
+.col-sm-6 img{
+    float:inline-start;
+    size: 100px;
+    
+}
+.col-sm-6 h4{
+    padding-top: 150px;
+    font-size: 40px;
+    color:black; 
+}
+.col-sm-6 h5{
+    font-size: 50px;
+    font-weight: 600;
+    color: black; 
+}
+.about-content{
+    padding-top: 20px;
+    color: rgb(158, 158, 158);
+}
+.btn{
+    margin-top: 20px;
+    float: centre;
+    background-color: rgb(24, 173, 179);
+
+}
+/* !-------------------------About us-2 Part end----------------------- */
+/* -------------------------Services Part----------------------- */
+.progress{
+    border-radius: 16px !important;
+
+}
+.skills-bar{
+    margin-top: 50px;
+    margin-bottom: 6px;
+    font-weight: 600px;
+}
+.progress-bar{
+    border-radius: 6px;
+
+}
+.Bar{
+    padding-top: 50px;
+}
+#ServiceImg{
+    margin-top: 50px;
+ background-image: url(img2.jpg); 
+background-size: cover;
+background-position: center;
+color: white;
+background-attachment: fixed ;
+padding-top: 50px;
+padding-bottom: 50px;
+
+}
+#ServiceImg h1{
+    text-align: center;
+    color: ivory;
+}
+.services{
+margin-top: 50px;
+
+}
+.icon{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid white;
+}
+.services p{
+    font-size: 15px;
+    margin-top: 20px;
+    color: #ccc;
+
+}
+
+.services .col-md-3:hover{
+  background:rgb(65, 65, 56);
+   cursor: pointer;
+   transition: 0.5s; 
+}
+
+/* team */
+#team{
+    padding-top:50px ;
+    padding-bottom:50px ;
+    color: #555;
+}
+h1{
+    text-align: center;
+    color: #555;
+    padding-bottom:10px ;
+}
+h1::after{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.profile-pic {
+    margin-top:30px ;
+}
+.profile-pic .img-box{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+.profile-pic .img-box img{
+    filter: grayscale(0);
+}
+
+.profile-pic .img-box img:hover{
+    filter: grayscale(1);
+    cursor: pointer;
+}
+.profile-pic{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #007bff !important;
+}
+
+#footer{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+
+}
+.contact-form{
+    padding: 15px;
+}
+.form-control{
+    border-radius: 0 !important;
+    border: none !important;
+}
+::placeholder{
+    color: #999 !important;
+}
+.contact-form .btn{
+    float: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
